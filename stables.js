@@ -65,7 +65,7 @@
 // Create a variable and use it to store a message that monthly payment is late, and the amount owing.
 // Include the name of your horse in the message.
 
-let horse = "Rascal";
+let horseName = "Rascal";
 let horseAge = "7";
 let isHorseInside = "true";
 let boardingFee = 156;
@@ -73,7 +73,10 @@ let lateFee = boardingFee * 0.2;
 let stableName = "Happytime Stables";
 let stableGreeting = "Welcome to " + stableName;
 let latePaymentMessage =
-    "'s boarding fee is late, you now owe " + "$" + (boardingFee + lateFee);
+    horseName +
+    "'s boarding fee is late, you now owe " +
+    "$" +
+    (boardingFee + lateFee);
 
 //------------------------- First day (Lab #2, Week 4) -------------------------//
 
@@ -95,16 +98,53 @@ let latePaymentMessage =
 // is hungry or not. Use dot notation.
 
 let horses = {
-    horseOne: ["Rascal", "Trouble", "Whiskey", 7, 1267],
-    horseTwo: ["Frazzle", "Dazzle", "Nickels", 26, 7585],
-    horseThree: ["Bingo", "Old One", "Souls", 754, -7],
+    Rascal: {
+        name: "Rascal",
+        nickname: "Trouble",
+        favoriteSnack: "Whiskey",
+        age: 7,
+        rent: 156,
+        isInside: false,
+        isHungry: true,
+        style: "white with brown spots",
+        musicalInstrument: "xylophone",
+    },
+    Frazzle: {
+        name: "Frazzle",
+        nickname: "Dazzle",
+        favoriteSnack: "nickels",
+        age: 26,
+        rent: 257,
+        isInside: true,
+        isHungry: false,
+        style: "yellow like a lemon",
+        musicalInstrument: "drums",
+    },
+    Bingo: {
+        name: "Bingo",
+        nickname: "Ancient One",
+        favoriteSnack: "lost souls",
+        age: 86739211678,
+        rent: 50,
+        isInside: true,
+        isHungry: false,
+        style: "ghost white",
+        musicalInstrument: "vocals",
+    },
 };
 
-horses.horseFour = ["Pennies", "losey", "grapes", 12, 34];
+horses.Pennies = {
+    Pennies: {
+        name: "Pennies",
+        nickname: "Losey",
+        favoriteSnack: "twigs",
+        age: 12,
+        rent: 352,
+        isInside: false,
+        isHungry: false,
+        style: "brown",
+        musicalInstrument: "guitar",
+    },
+};
 
-horses.horseOne.isHorseHungry = "false";
-horses.horseTwo.isHorseHungry = "true";
-horses.horseThree.isHorseHungry = "false";
-horses.horseFour.isHorseHungry = "false";
-
-console.log(horses);
+//console.log(horses);

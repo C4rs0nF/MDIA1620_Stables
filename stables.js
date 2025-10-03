@@ -65,20 +65,15 @@
 // Create a variable and use it to store a message that monthly payment is late, and the amount owing.
 // Include the name of your horse in the message.
 
-// let horse = "Rascal";
-// let horseAge = "7";
-// let isHorseInside = "true";
-// let boardingFee = 156;
-// let latePayment = boardingFee * 0.2;
-// let stableName = "Happytime Stables";
-// let stableGreeting = "Welcome to " + stableName;
-// let latePaymentMessage =
-//     "'s boarding fee is late, you now owe " + "$" + (boardingFee + latePayment);
-//
-// console.log(
-//    "My horse's name is " + horse + ", he is " + horseAge + " years old."
-// );
-// console.log(stableGreeting + ". " + horse + latePaymentMessage);
+let horse = "Rascal";
+let horseAge = "7";
+let isHorseInside = "true";
+let boardingFee = 156;
+let lateFee = boardingFee * 0.2;
+let stableName = "Happytime Stables";
+let stableGreeting = "Welcome to " + stableName;
+let latePaymentMessage =
+    "'s boarding fee is late, you now owe " + "$" + (boardingFee + lateFee);
 
 //------------------------- First day (Lab #2, Week 4) -------------------------//
 

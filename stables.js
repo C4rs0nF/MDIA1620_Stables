@@ -147,4 +147,4 @@ horses.Pennies = {
     },
 };
 
-//console.log(horses);
+console.log(horses);

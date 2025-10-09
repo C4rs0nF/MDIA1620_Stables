@@ -154,6 +154,26 @@ function printHorseAge(name, age) {
 }
 
 printHorseAge(horses.Rascal.name, horses.Rascal.age);
+
+let changer = "hello world";
+changer = "bye world";
+
+const MONTHLY_RENT = 300;
+
+function payMe(rent = MONTHLY_RENT) {
+    let message = "you owe me " + rent + " dollars!";
+
+    return message;
+}
+
+function payMeLateFees(lateFees) {
+    let amount = "you owe me " + lateFees + " dollars!";
+    let lateFees = 300;
+    return amount;
+}
+
+console.log(payMeLateFees());
+
 //                                      \       ,
 //                                      |\.--._/|
 //                                     /\ )  )\\/

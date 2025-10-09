@@ -147,6 +147,13 @@ horses.Pennies = {
     },
 };
 
+console.log(horses.Rascal.name + " is " + horses.Rascal.age + " years old!");
+
+function printHorseAge(name, age) {
+    console.log(name + " is " + age + " years old!");
+}
+
+printHorseAge(horses.Rascal.name, horses.Rascal.age);
 //                                      \       ,
 //                                      |\.--._/|
 //                                     /\ )  )\\/

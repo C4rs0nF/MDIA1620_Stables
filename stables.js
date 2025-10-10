@@ -265,17 +265,15 @@ let horses = {
 };
 
 horses.pennies = {
-    pennies: {
-        name: "Pennies",
-        nickname: "Losey",
-        favoriteSnack: "twigs",
-        age: 12,
-        rent: 352,
-        isInside: false,
-        isHungry: false,
-        style: "brown",
-        musicalInstrument: "guitar",
-    },
+    name: "Pennies",
+    nickname: "Losey",
+    favoriteSnack: "twigs",
+    age: 12,
+    rent: 352,
+    isInside: false,
+    isHungry: false,
+    style: "brown",
+    musicalInstrument: "guitar",
 };
 
 let totalStalls = 6;
@@ -309,7 +307,6 @@ function latePaymentAlert(horses) {
 
 latePaymentAlert(horses.frazzle);
 latePaymentAlert(horses.pennies);
-// --why is pennnies coming back undefined in log??--
 
 function getHorseNickname(horses) {
     console.log(horses.nickname + " is " + horses.name + "'s nickname");

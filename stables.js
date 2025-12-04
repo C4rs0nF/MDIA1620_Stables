@@ -1,46 +1,31 @@
 // Welcome!
 //
-//                                                  #    #
-//                                             %%% ##   ##
-//                                          %%%%% ###%🎀###
-//                                         %%%%% ### %%% #
-//                                       %%%%%% ### %%% ###
-//                                        %%%% ## %% #######
-//                                       %%%%% # %% #@#####
-//                                     %%%%%% # % #########
-//                                    %%%%% ##### #########
-//                          ###        %% ####### #########
-//                 %%% ############    ########### ########
-//              %%%% ############################### #######
-//            %%%%% ################################## ######
-//          %%%%%% #################################### #C###
-//         %%%🌸%% #####################################  ###
-//         %%%%% #######################################
-//        %%%%%% ############### BEANS ##################
-//     % %%%%%%% ############### BEANS ##################
-//      %%%%%%%%% ############## BEANS ##################
-//     %%%%%%%%%% ########################################
-//  %%% %%%%%%%%   ###### ################################
-//    %%%%%%%%      ###### #################### ##########
-// % %%%🌸%%%%        ####### ########### ###### ##########
-//  %%%%%%%%%         #######  ########### ###### ########
-// %%%%%%%%%%          ##### ###  ######### ####### ######
-//  %%%%%%%%%%          #### ##               ####### ####
-//  %🌸%%%%%%%%%           ## #                  ##### ###
-//   %%  %% % %%         # ##                      ## ###
-//     %   %    %        # ###                      # ###
-//                        # ###                     ## ###
-//                        # ###                     ## ###
-//                        # ####                   #### ##
-//                       ### ###                  ##### ###
-//                      ####  ###                 ####   ##
-//                     #####   ###                 ##    ##
-//                    #####    ####                      ###
-//                     ##        ###                     ###
-//                                ####                     ##
-//                                 ####                    ###
-//                                                         ####
-//                                                          ##
+//  ,  ,.~"""""~~..                                           ___
+//   )\,)\`-,       `~._                                     .'   ``._
+//   \  \ | )           `~._                   .-"""""-._   /         \
+//  _/ ('  ( _(\            `~~,__________..-"'          `-<           \
+//  )   )   `   )/)   )        \                            \           |
+// ') /)`      \` \,-')/\      (                             \          |
+// (_(\ /7      |.   /'  )'  _(`                              |         |
+//     \\      (  `.     ')_/`                                |         /
+//      \       \   \                                         |        (
+//       \ )  /\/   /                                         |         `~._
+//        `-._)     |                                        /.            `~,
+//                  |                          |           .'  `~.          (`
+//                   \                       _,\          /       \        (``
+//                    `/      /       __..-i"   \         |        \      (``
+//                   .'     _/`-..--""      `.   `.        \        ) _.~<``
+//                 .'    _.j     /            `-.  `.       \      '=< `
+//               .'   _.'   \    |               `.  `.      \
+//              |   .'       ;   ;               .'  .'`.     \
+//              \_  `.       |   \             .'  .'   /    .'
+//                `.  `-, __ \   /           .'  .'     |   (
+//                  `.  `'` \|  |           /  .-`     /   .'
+//                    `-._.--t  ;          |_.-)      /  .'
+//                           ; /           \  /      / .'
+//                          / /             `'     .' /
+//                         /,_\                  .',_(
+//                        /___(                 /___(
 //
 // This is a template for your labs and final project. You'll be setting up a stable and making
 // sure it runs smoothly.
@@ -228,91 +213,424 @@
 
 // -----OCTOBER 10th----- //
 
-let horses = {
-    rascal: {
-        name: "Rascal",
-        nickname: "Trouble",
-        favoriteSnack: "Whiskey",
-        age: 7,
-        rent: 156,
-        isInside: false,
-        isHungry: true,
-        style: "white with brown spots",
-        musicalInstrument: "xylophone",
+// let horses = {
+//     rascal: {
+//         name: "Rascal",
+//         nickname: "Trouble",
+//         favoriteSnack: "Whiskey",
+//         age: 7,
+//         rent: 156,
+//         isInside: false,
+//         isHungry: true,
+//         style: "white with brown spots",
+//         musicalInstrument: "xylophone",
+//     },
+//     frazzle: {
+//         name: "Frazzle",
+//         nickname: "Dazzle",
+//         favoriteSnack: "nickels",
+//         age: 26,
+//         rent: 257,
+//         isInside: true,
+//         isHungry: false,
+//         style: "yellow like a lemon",
+//         musicalInstrument: "drums",
+//     },
+//     bingo: {
+//         name: "Bingo",
+//         nickname: "Ancient One",
+//         favoriteSnack: "lost souls",
+//         age: 86739211678,
+//         rent: 50,
+//         isInside: true,
+//         isHungry: false,
+//         style: "ghost white",
+//         musicalInstrument: "vocals",
+//     },
+// };
+
+// horses.pennies = {
+//     name: "Pennies",
+//     nickname: "Losey",
+//     favoriteSnack: "twigs",
+//     age: 12,
+//     rent: 352,
+//     isInside: false,
+//     isHungry: false,
+//     style: "brown",
+//     musicalInstrument: "guitar",
+// };
+
+// let totalStalls = 6;
+
+// function printStallsAvailable(horses) {
+//     let horsesInStalls = 4;
+//     let availableStalls = totalStalls - horsesInStalls;
+//     console.log(
+//         "there are currently " +
+//             availableStalls +
+//             " stalls available for " +
+//             horses.name +
+//             " to move into"
+//     );
+// }
+
+// printStallsAvailable(horses.bingo);
+// printStallsAvailable(horses.rascal);
+
+// const MONTHLY_RENT = 300;
+
+// function latePaymentAlert(horses) {
+//     let latePaymentFee = MONTHLY_RENT * 1.2;
+//     console.log(
+//         horses.name +
+//             "'s rent has not been paid on time, " +
+//             latePaymentFee +
+//             " dollars is what you now owe."
+//     );
+// }
+
+// latePaymentAlert(horses.frazzle);
+// latePaymentAlert(horses.pennies);
+
+// function getHorseNickname(horses) {
+//     return horses.nickname + " is " + horses.name + "'s nickname";
+// }
+
+// console.log(getHorseNickname(horses.bingo));
+
+// ---------FINALS.JS--------- //
+
+// Welcome!
+//----------------------------------------------
+//                                  |\    /|
+//                               ___| \,,/_/
+//                            ---__/ \/    \
+//                           __--/     (D)  \
+//                           _ -/    (_      \
+//                          // /       \_ / ==\
+//    __-------_____--___--/           / \_ O o)
+//   /                                 /   \==/
+//  /                                 /
+// ||          )                   \_/\
+// ||         /              _      /  |
+// | |      /--______      ___\    /\  :
+// | /   __-  - _/   ------    |  |   \ \
+//  |   -  -   /                | |     \ )
+//  |  |   -  |                 | )     | |
+//   | |    | |                 | |    | |
+//   | |    < |                 | |   |_/
+//   < |    /__\                <  \
+//   /__\                       /___\
+// ------------rascal----------------------------
+//
+// This is a template for the final project. You'll be setting up a stable and making
+// sure it runs smoothly.
+//
+// You can copy and paste this into your stables.js file, and then use it to guide you.
+// Please do not create a new file!
+// Feel free to keep the headings (e.g.: "Variables"), but please delete any boilerplate
+// comments. (Your own comments, where necessary, are acceptable.)
+//
+// NOTE: UNLESS SPECIFIED, VARIABLE NAMING IS UP TO YOU. THERE SHOULD BE NO HARD-CODED
+// NUMBERS OR STRINGS WHERE VARIBALES WOULD BE PREFERRED.
+
+//------------------------- Seting up shop -------------------------//
+
+// Initialize a variable called "horses" that will store the horses in your stable.
+let horses = [];
+// Create a variable and use it to store a message that welcomes visitors to the stable.
+let greeting = "welcome to the stables";
+// Create a variable and use it to store the cost of a late payment fee.
+let lateFee = 100;
+// Create a variable and use it to store the number of available stalls in the stable.
+let freeStalls = 5;
+
+//------------------------- First day -------------------------//
+
+// Using a constructor, add at least 3 horses to your stables.
+// The horse should have the following properties:
+// - name, nickname, favorite treat (string)
+// - age, monthly rent (number)
+// - location (boolean inside/outside)
+// - two unique properties of your choice (use any primitive)
+// - a method that introduces your horse and references at least 3 object properties.
+// - a second, unique method of your choice
+let Horse = function (
+    horseName,
+    horseNickname,
+    horseAge,
+    horseFavSnack,
+    horseSpecialTalent
+) {
+    this.name = horseName;
+    this.nickname = horseNickname;
+    this.age = horseAge;
+    this.rent = 300;
+    this.isInside = true;
+    this.favSnack = horseFavSnack;
+    this.specialTalent = horseSpecialTalent;
+
+    this.intro = function () {
+        let introMessage =
+            "This is " +
+            this.name +
+            " my horse! they are " +
+            this.age +
+            " years old, their favorite snack is " +
+            this.favSnack +
+            " and their nickname is " +
+            this.nickname +
+            "!";
+        console.log(introMessage);
+    };
+
+    this.specialTalent = function () {
+        console.log("their special talent is" + this.specialTalent + "!");
+    };
+};
+// Store the horses you've just created in your "horses" variable.
+let horseOne = new Horse("Rascal", "Trouble", "7", "Whiskey", "Ice Hockey");
+let horseTwo = new Horse(
+    "Pennies",
+    "Jangles",
+    "4",
+    "Coins",
+    "Olympic Longjumping"
+);
+let horseThree = new Horse(
+    "Frederick",
+    "Zoomers",
+    "40",
+    "Monster Energy",
+    "Running"
+);
+// Fancy! Another horse wants to be stabled! Create a variable that stores an object
+// literal of your new horse, and add it to your "horses" variable.
+let horseFour = {
+    name: "Banana",
+    nickname: "Fruity",
+    age: 8,
+    favSnack: "sawdust",
+    specialTalent: "eating dirt",
+
+    intro: function () {
+        let introMessage =
+            "This is " +
+            this.name +
+            " my horse! they are " +
+            this.age +
+            " years old, their favorite snack is " +
+            this.favSnack +
+            " and their nickname is " +
+            this.nickname +
+            "!";
+        console.log(introMessage);
     },
-    frazzle: {
-        name: "Frazzle",
-        nickname: "Dazzle",
-        favoriteSnack: "nickels",
-        age: 26,
-        rent: 257,
-        isInside: true,
-        isHungry: false,
-        style: "yellow like a lemon",
-        musicalInstrument: "drums",
-    },
-    bingo: {
-        name: "Bingo",
-        nickname: "Ancient One",
-        favoriteSnack: "lost souls",
-        age: 86739211678,
-        rent: 50,
-        isInside: true,
-        isHungry: false,
-        style: "ghost white",
-        musicalInstrument: "vocals",
+
+    specialTalent: function () {
+        console.log("their special talent is" + this.specialTalent + "!");
     },
 };
 
-horses.pennies = {
-    name: "Pennies",
-    nickname: "Losey",
-    favoriteSnack: "twigs",
-    age: 12,
-    rent: 352,
-    isInside: false,
-    isHungry: false,
-    style: "brown",
-    musicalInstrument: "guitar",
-};
+horses.push(horseOne, horseTwo, horseThree, horseFour);
+console.log(horses);
+// Initialize new property to your horses: a boolean that allows you to check if your horse
+// is hungry or not. Use dot notation.
+horses[0].isHungry = true;
+horses[1].isHungry = false;
+horses[2].isHungry = true;
+horses[3].isHungry = false;
+//------------------------- Stable roster -------------------------//
 
-let totalStalls = 6;
+// We want to keep track of our horses and how they are doing. Paste the data structure
+// of our horse variable below so we can reference it. It is okay to comment it out.
+// [
+//   Horse {
+//     name: 'Rascal',
+//     nickname: 'Trouble',
+//     age: '7',
+//     rent: 200,
+//     lateFee: 100,
+//     isInside: true,
+//     favSnack: 'Whiskey',
+//     specialTalent: [Function (anonymous)],
+//     intro: [Function (anonymous)]
+//   },
+//   Horse
+//     name: 'Pennies',
+//     nickname: 'Jangles',
+//     age: '4',
+//     rent: 200,
+//     lateFee: 100,
+//     isInside: true,
+//     favSnack: 'Coins',
+//     specialTalent: [Function (anonymous)],
+//     intro: [Function (anonymous)]
+//   },
+//   Horse {
+//     name: 'Frederick',
+//     nickname: 'Zoomers',
+//     age: '5',
+//     rent: 200,
+//     lateFee: 100,
+//     isInside: true,
+//     favSnack: 'Monster Energy',
+//     specialTalent: [Function (anonymous)],
+//     intro: [Function (anonymous)]
+//   },
+//   {
+//     name: 'Banana',
+//     nickname: 'Fruity',
+//     age: 8,
+//     favSnack: 'sawdust',
+//     specialTalent: [Function: specialTalent],
+//     intro: [Function: intro]
+//   }
+// ]
+//---------------------- Growing business ----------------------//
 
-function printStallsAvailable(horses) {
-    let horsesInStalls = 4;
-    let availableStalls = totalStalls - horsesInStalls;
+// We've added some horses! Re-assign the variable that contains the number of available stalls.
+// Use the math operator to determine how many stables you should have left, given the number of
+// horses you've added.
+
+let availStalls = freeStalls - horses.length;
+
+// Express the following in code: If the variable that contains your remaining stalls
+// is less than 2, log out "We need to build more stalls", otherwise log out "We have
+// [number of stalls] available!"
+if (availStalls < 2) {
+    console.log("we need to build more stalls!");
+} else {
+    console.log("we have " + availStalls + " available!");
+}
+// Create a function that logs out how much will an individual horse will owe if rent is
+// paid late. Invoke the function.
+function latePaymentCharge(horse, lateFee) {
+    let totalLateFee = horse.rent + lateFee;
     console.log(
-        "there are currently " +
-            availableStalls +
-            " stalls available for " +
-            horses.name +
-            " to move into"
+        horse.name + " missed their payment! you now owe $" + totalLateFee
     );
 }
 
-printStallsAvailable(horses.bingo);
-printStallsAvailable(horses.rascal);
+latePaymentCharge(horses[1], lateFee);
+// Add loop that checks to find out if a certain horse likes a treat. If the horse does not like
+// the treat, log out their disatisfaction
+//  and check the next horse. Exit the loop when you find
+// the horse that likes the treat.
 
-const MONTHLY_RENT = 300;
-
-function latePaymentAlert(horses) {
-    let latePaymentFee = MONTHLY_RENT * 1.2;
-    console.log(
-        horses.name +
-            "'s rent has not been paid on time, " +
-            latePaymentFee +
-            " dollars is what you now owe."
-    );
+console.log(horses[3].favSnack);
+for (let step = 0; step < horses.length; step++) {
+    if (horses[step].favSnack !== "sawdust") {
+        console.log("this horse HATES this");
+    } else {
+        console.log("this horse likes this... strange");
+        break;
+    }
 }
 
-latePaymentAlert(horses.frazzle);
-latePaymentAlert(horses.pennies);
-
+// Create and invoke a function that returns (not logs) the nickname of a chosen horse. Log out
+// the return value outside of the function.
 function getHorseNickname(horses) {
-    console.log(horses.nickname + " is " + horses.name + "'s nickname");
+    return horses.nickname;
 }
 
-return getHorseNickname(horses.bingo);
+console.log(getHorseNickname(horses[2]));
+
+//------------------------- Day to day operations -------------------------//
+
+// Create and invoke a function that references one of your unique horse properties. It should
+// contain a conditional or a loop.
+
+function checkAge(horses) {
+    if (horses.age < 30) {
+        console.log("this horse is young and full of life");
+    } else {
+        console.log(horses.name + " is an old ass horse");
+    }
+}
+
+console.log(checkAge(horses[3]));
+
+// Morning! Create and invoke a function that moves all your horses outside. It should
+// log out statement indicating the horses have been moved to spend time in the sun.
+
+function goOutside(horses) {
+    for (let step = 0; step < horses.length; step++) {
+        let currentHorse = horses[step];
+        if (currentHorse.isInside) {
+            currentHorse.isInside = false;
+            console.log(currentHorse.name + ", get your butt outside!");
+        } else {
+            console.log(currentHorse.name + " is already outside");
+        }
+    }
+}
+
+goOutside(horses);
+
+// Initialize a method on your horses that moves them inside if they are outside, and
+// vice versa.
+function comeInside(horses) {
+    for (let step = 0; step < horses.length; step++) {
+        let currentHorse = horses[step];
+        if (currentHorse.isInside === false) {
+            currentHorse.isInside = true;
+            console.log("come inside, " + currentHorse.name);
+        } else {
+            console.log(currentHorse.name + "is already inside");
+        }
+    }
+}
+
+comeInside(horses);
+
+// Food! Create and invoke a function that feeds your horses. If the horse is outside, it
+// should call them in, and then all horses should be fed a treat. Log the activity of
+// the horses.
+function feedHorses(horses) {
+    for (let step = 0; step < horses.length; step++) {
+        let currentHorse = horses[step];
+        if (currentHorse.isInside === false) {
+            currentHorse.isInside = true;
+            console.log(
+                "come inside, " + currentHorse.name + ", its time to eat!"
+            );
+        } else {
+            console.log("enjoy your food, " + currentHorse.name);
+        }
+    }
+}
+
+// Bedtime! Update the function that lets your horses outside so that it also calls them
+// in if it is getting dark. Only the horses that moved should log out a message. Invoke the function.
+
+function horsesInsideOutside(horses) {
+    let isDarkOutside = true;
+    for (let step = 0; step < horses.length; step++) {
+        let currentHorse = horses[step];
+        if (currentHorse.isInside) {
+            currentHorse.isInside = false;
+            console.log(currentHorse.name + ", get your butt outside!");
+        }
+        if (isDarkOutside) {
+            currentHorse.isInside = false;
+            console.log(
+                "its getting dark out there " +
+                    currentHorse.name +
+                    ", come inside!"
+            );
+        } else {
+            console.log(currentHorse.name + " is already outside");
+        }
+    }
+}
+
+horsesInsideOutside(horses);
+
+//------------------------- Bonus -------------------------//
+
+// Replace the ascii art at the top of the file with art representing your stable.
 
 //-----NOTES----- //
 
